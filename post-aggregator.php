@@ -70,7 +70,7 @@ class PostAggregator {
          * It installs necessary database tables, sets initial seeds, 
          * and checks database versions.
          */
-        new PostAggregator\Classes\Install();
+        PostAggregator\Classes\Install::init();
 
         /**
          * Register hooks for Admin end.

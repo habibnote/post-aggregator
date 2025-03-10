@@ -9,11 +9,16 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
+            'PostAggregator\\Trait\\' => 21,
             'PostAggregator\\Classes\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'PostAggregator\\Trait\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/includes/trait',
+        ),
         'PostAggregator\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/includes/classes',

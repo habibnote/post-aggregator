@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PostAggregator\\Trait\\' => array($baseDir . '/includes/trait'),
     'PostAggregator\\Classes\\' => array($baseDir . '/includes/classes'),
 );
