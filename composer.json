@@ -1,0 +1,12 @@
+{
+    "authors": [
+        {
+            "name": "Md. Habib"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PostAggregator\\Classes\\": "includes/classes"
+        }
+    }
+}
